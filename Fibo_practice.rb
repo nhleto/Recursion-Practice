@@ -21,4 +21,4 @@ def fibs_rec(num)
   fibs_seq = fibs_rec(num - 1)
   fibs_seq << fibs_seq[-1] + fibs_seq[-2]
 end
-p fibs(10)
+p fibs_rec(10)
